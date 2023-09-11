@@ -17,6 +17,8 @@ module.exports = {
         error: "#FF4D35",
         success: "#00B67A",
         link: "#3076FF",
+        "pastel-yellow": "#FFF67C",
+        "pale-green": "#DDFFD8",
       },
       fontFamily: {
         inter: ["inter", "sans-serif"],
@@ -29,6 +31,15 @@ module.exports = {
         15: "3.75rem",
         128: "32rem",
         144: "36rem",
+      },
+      maxWidth: {
+        heading: "521px",
+      },
+      padding: {
+        7.75: "7.75rem",
+      },
+      fontSize: {
+        "4.5xl": "42px",
       },
     },
   },
