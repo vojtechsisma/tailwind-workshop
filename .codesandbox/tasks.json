@@ -15,8 +15,8 @@
       "runAtStart": false
     },
     "serve  .": {
-      "name": "serve  .",
-      "command": "serve  .",
+      "name": "start",
+      "command": "npm run start",
       "runAtStart": true
     }
   }
