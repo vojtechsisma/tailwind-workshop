@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>05-dark-theme</title>
+    <link href="/src/index.css" rel="stylesheet" />
+  </head>
+  <body class="font-inter bg-white text-black">
+    <button id="darkmode-toggle">Darkmode</button>
+    <!-- Flex layout -->
+    <main class="py-[124px]">
+      <div class="text-center max-w-[521px] mx-auto mb-16">
+        <h2 class="text-5xl font-extrabold mb-6">Features</h2>
+        <p class="text-2xl">
+          Do not waste time worrying about the number of clicks, worry about the
+          scent of information.
+        </p>
+      </div>
+      <section class="px-6 flex flex-col gap-16 md:gap-12 max-w-5xl mx-auto">
+        <div
+          class="flex items-center md:even:flex-row-reverse gap-9 md:gap-32 flex-col-reverse md:flex-row"
+        >
+          <div class="flex-1">
+            <h3 class="mb-8 md:mb-14 font-extrabold text-4xl">
+              Then came the night of the first falling star.
+            </h3>
+            <p class="text-lg">
+              It’s a bit like setting a trap for a hungry bear, bait him, feed
+              him to your final goal and he will follow you without even
+              realizing it.
+            </p>
+          </div>
+          <div class="flex-1">
+            <img
+              src="/assets/img/features-1.png"
+              alt="Then came the night of the first falling star."
+            />
+          </div>
+        </div>
+        <div
+          class="flex items-center md:even:flex-row-reverse gap-9 md:gap-32 flex-col-reverse md:flex-row"
+        >
+          <div class="flex-1 flex-col md:flex-row">
+            <h3 class="mb-14 font-extrabold text-4xl">
+              Then came the night of the first falling star.
+            </h3>
+            <p class="text-lg">
+              It’s a bit like setting a trap for a hungry bear, bait him, feed
+              him to your final goal and he will follow you without even
+              realizing it.
+            </p>
+          </div>
+          <div class="flex-1">
+            <img
+              src="/assets/img/features-2.png"
+              alt="Then came the night of the first falling star."
+            />
+          </div>
+        </div>
+        <div
+          class="flex items-center md:even:flex-row-reverse gap-9 md:gap-32 flex-col-reverse md:flex-row"
+        >
+          <div class="flex-1 flex-col md:flex-row">
+            <h3 class="mb-14 font-extrabold text-4xl">
+              Then came the night of the first falling star.
+            </h3>
+            <p class="text-lg">
+              It’s a bit like setting a trap for a hungry bear, bait him, feed
+              him to your final goal and he will follow you without even
+              realizing it.
+            </p>
+          </div>
+          <div class="flex-1">
+            <img
+              src="/assets/img/features-3.png"
+              alt="Then came the night of the first falling star."
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Grid layout -->
+    <div class="mx-auto py-[124px] max-w-5xl px-6">
+      <h3 class="text-center text-[42px] font-extrabold mb-12">
+        Cards with gradient
+      </h3>
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-black"
+      >
+        <div
+          class="bg-gradient-to-b from-[#FFA49E] to-[#F3DAFF] rounded-[20px] py-16 px-9"
+        >
+          <p class="mb-2">
+            “The company is a priceless tool that helps us drive Sales and
+            Support through every step of the funnel.”
+          </p>
+          <p class="font-bold">Name</p>
+        </div>
+        <div
+          class="bg-gradient-to-b from-[#FFF67C] to-[#DDFFD8] rounded-[20px] py-16 px-9"
+        >
+          <p class="mb-2">
+            “The company is a priceless tool that helps us drive Sales and
+            Support through every step of the funnel.”
+          </p>
+          <p class="font-bold">Name</p>
+        </div>
+        <div
+          class="bg-gradient-to-b from-[#40A2FD] to-[#DAFFE6] rounded-[20px] py-16 px-9"
+        >
+          <p class="mb-2">
+            “The company is a priceless tool that helps us drive Sales and
+            Support through every step of the funnel.”
+          </p>
+          <p class="font-bold">Name</p>
+        </div>
+        <div
+          class="bg-gradient-to-b from-[#FFF67C] to-[#DDFFD8] rounded-[20px] py-16 px-9"
+        >
+          <p class="mb-2">
+            “The company is a priceless tool that helps us drive Sales and
+            Support through every step of the funnel.”
+          </p>
+          <p class="font-bold">Name</p>
+        </div>
+        <div
+          class="bg-gradient-to-b from-[#40A2FD] to-[#DAFFE6] rounded-[20px] py-16 px-9"
+        >
+          <p class="mb-2">
+            “The company is a priceless tool that helps us drive Sales and
+            Support through every step of the funnel.”
+          </p>
+          <p class="font-bold">Name</p>
+        </div>
+        <div
+          class="bg-gradient-to-b from-[#FFA49E] to-[#F3DAFF] rounded-[20px] py-16 px-9"
+        >
+          <p class="mb-2">
+            “The company is a priceless tool that helps us drive Sales and
+            Support through every step of the funnel.”
+          </p>
+          <p class="font-bold">Name</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  document
+    .querySelector("#darkmode-toggle")
+    .addEventListener("click", () =>
+      document.documentElement.classList.toggle("dark")
+    );
+</script>

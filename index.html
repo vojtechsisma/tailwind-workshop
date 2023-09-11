@@ -5,18 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind CSS workshop</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/github-markdown-css/github-markdown-light.css"
+    />
   </head>
   <style>
-    * {
-      font-family: sans-serif;
+    .markdown-body {
+      box-sizing: border-box;
+      min-width: 200px;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 45px;
     }
 
-    a {
-      text-decoration: none;
+    @media (max-width: 767px) {
+      .markdown-body {
+        padding: 15px;
+      }
     }
   </style>
   <body>
-    <div id="content"></div>
+    <div class="markdown-body" id="content"></div>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
       const importFile = (textFile) => {
