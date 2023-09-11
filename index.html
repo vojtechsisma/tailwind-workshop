@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS workshop</title>
+  </head>
+  <style>
+    * {
+      font-family: sans-serif;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+  <body>
+    <div id="content"></div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+      const importFile = (textFile) => {
+        const rawFile = new XMLHttpRequest();
+        let allText = "";
+        rawFile.open("Get", textFile, false);
+        rawFile.onreadystatechange = () => {
+          if (rawFile.readyState === 4) {
+            if (rawFile.status === 200 || rawFile.status == 0) {
+              allText = rawFile.responseText;
+            }
+          }
+        };
+        rawFile.send(null);
+        return allText;
+      };
+
+      document.getElementById("content").innerHTML = marked.parse(
+        importFile("README.md")
+      );
+    </script>
+  </body>
+</html>
