@@ -6,3 +6,7 @@
   font-family: "inter";
   src: url("/assets/fonts/Inter.ttf");
 }
+
+.back {
+  @apply p-8 block font-bold;
+}
