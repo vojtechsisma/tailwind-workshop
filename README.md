@@ -2,7 +2,7 @@
 
 <a href="https://www.figma.com/file/Z1VIqjmxV0wAdVLcVIhvQe/Tailwind-CSS-workshop?type=design&mode=design&t=xnhLy4T0CsmVOGzB-1" target="_blank">Designs</a> for the exercises
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FZ1VIqjmxV0wAdVLcVIhvQe%2FTailwind-CSS-workshop%3Ftype%3Ddesign%26mode%3Ddesign%26t%3DxnhLy4T0CsmVOGzB-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FZ1VIqjmxV0wAdVLcVIhvQe%2FTailwind-CSS-workshop%3Ftype%3Ddesign%26mode%3Ddesign%26t%3DxnhLy4T0CsmVOGzB-1" allowfullscreen></iframe>
 
 ## Exercises
 
