@@ -1,6 +1,6 @@
 # Tailwind CSS workshop
 
-In each exercise subfolder, you can find `readme.md` file with description of the task and `index.html` file to work with.
+In each exercise subfolder, you can find `readme.md` file with description of the task and `index.html` file to work with. It's recommended to keep the order becouse most of exercies depend on the previous.
 
 <a href="https://www.figma.com/file/Z1VIqjmxV0wAdVLcVIhvQe/Tailwind-CSS-workshop?type=design&mode=design&t=xnhLy4T0CsmVOGzB-1" target="_blank">Here</a> you can find designs for the exercises
 
