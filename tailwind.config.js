@@ -19,6 +19,10 @@ module.exports = {
         link: "#3076FF",
         "pastel-yellow": "#FFF67C",
         "pale-green": "#DDFFD8",
+        "salmon=pink": "#FFA49E",
+        "lavender-blue": "#F3DAFF",
+        "cornflower-blue": "#40A2FD",
+        "mint-green": "#DAFFE6",
       },
       fontFamily: {
         inter: ["inter", "sans-serif"],
