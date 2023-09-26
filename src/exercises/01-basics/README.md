@@ -1,6 +1,6 @@
 # 01-basics
 
-Add tailwind classes to the `index.html` file to create a card like in the **[design](https://www.figma.com/file/Z1VIqjmxV0wAdVLcVIhvQe/Tailwind-CSS-workshop?type=design&node-id=7-934&mode=design&t=qVE6HsYMMPJOjkgA-4)**
+Add tailwind classes to the `index.html` file to create a card according to the **[design](https://www.figma.com/file/Z1VIqjmxV0wAdVLcVIhvQe/Tailwind-CSS-workshop?type=design&node-id=7-934&mode=design&t=qVE6HsYMMPJOjkgA-4)**
 , you will need to define background gradient, gradient stops, padding, rounded corners, maximum width and font weight.
 
 ## Useful links

@@ -1,6 +1,6 @@
 # 02-states
 
-Make the card from previous exercises reactable to mouse hover and disabled state, you can add some scaling or reduce opacity for the disabled state.
+Make the card from previous exercises to respond to mouse hover and disabled state, you can add some scaling or reduce opacity for the disabled state.
 
 ## Useful links
 
